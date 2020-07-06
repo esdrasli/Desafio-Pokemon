@@ -25,7 +25,7 @@ export const p = styled.p`
 `
 export const title = styled.h2`
     border-radius: 5px;
-    background-color: #e64c3c; 
+    background-color: #6652eb; 
     display: flex;
     justify-content: center;
     padding: 5px;

@@ -6,12 +6,13 @@ import Card from "./components/Card";
 import ShoppingCart from './components/ShoppingCart'
 import Modal from './components/Modal'
 import ScrollTop from './components/ScrollTop'
+import Footer from './components/Footer'
 
 import "./style.css";
 
 export default function App() {
   const [pokemonArray, setPokemonArray] = useState([]);
-  const [ setPokemonCart] = useState([]);
+  const [pokemonCart, setPokemonCart] = useState([]);
   const [offset, setOffset] = useState(0);
   const [totalPrice, setTotalPrice] = useState(0)
   const [showModalState, setShowModalState] = useState(false);  
@@ -46,6 +47,8 @@ export default function App() {
       
       <ScrollTop />
       {isShowModal()}
+
+      <Footer/>    
 
       
     </S.container>

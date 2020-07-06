@@ -1,57 +1,28 @@
 import styled from 'styled-components'
-import { MdAddShoppingCart } from 'react-icons/md'
+import { FiGithub } from "react-icons/fi";
 
-export const divCard = styled.div`
-    transition: 0.3s;
-    margin: 0px 10px 20px 10px;
-    width:150px;
-    border-radius: 10px;
-    background-color: rgb(255, 255, 255);
 
-`
-export const imgCard = styled.img`
-`
-
-export const cardDescription = styled.div`
-    display:flex;
-    font-size: 10px;
-    flex-direction: column-reverse;
-    align-items: center
-`
-export const price = styled.strong`
-    font-style: italic;
-    font-size: 15px;
-    color: red;
-    margin: 3px;
-`
-
-export const cardBody = styled.div`
-    display:flex;
-    flex-direction:column;
-    align-items: center
-`
-
-export const cartIcon = styled(MdAddShoppingCart)`
-    width:30px;
-`
-
-export const cardButton = styled.button`
-    width:100%;
-    display:flex;
+export const Footer = styled.div`
+    position: sticky;
+    top: 0px;
+    padding: 10px 0 10px 10px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #6652eb;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
     align-items: center;
-    justify-content:center;
-    padding:5px 3px;
-    background-color: #baba13;
-    border: none;
-    color: white;
-    cursor: pointer;
-    border-radius: 10px;
-
-    &:hover{
-        background-color: red
-    }
 `
-export const name = styled.strong`
-    font-style:oblique;
-    font-size: 15px
+
+export const divFooter = styled.div`
+    display: flex;
+    padding: 25px;
+
+`
+export const fiGithub = styled(FiGithub)`
+    width: 40px;
+    height:40px;
+    border: 1px solid black;
+    border-radius: 25px; 
+    padding: 5px;
+    color: black;
 `
