@@ -19,6 +19,7 @@ export default function Header({pokemonSearchName}) {
       <S.divSearch>
         <S.inputName value={pokemonName} onChange={e => setPokemonName(e.target.value)} placeholder="Pesquise pelo nome"></S.inputName>
         <S.buttonSearch type="button" onClick={handlePesquisa}><FaSearch/></S.buttonSearch>
+     
       </S.divSearch>
     </S.Header>
   );

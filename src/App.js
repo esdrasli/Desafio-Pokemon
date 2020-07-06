@@ -11,7 +11,7 @@ import "./style.css";
 
 export default function App() {
   const [pokemonArray, setPokemonArray] = useState([]);
-  const [pokemonCart, setPokemonCart] = useState([]);
+  const [ setPokemonCart] = useState([]);
   const [offset, setOffset] = useState(0);
   const [totalPrice, setTotalPrice] = useState(0)
   const [showModalState, setShowModalState] = useState(false);  
