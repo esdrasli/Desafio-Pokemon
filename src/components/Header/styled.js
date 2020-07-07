@@ -44,6 +44,7 @@ export const buttonSearch = styled.button`
     &:hover{
         background-color: red
     }
+    
 ` 
 
 export const Container = styled.div`
