@@ -6,7 +6,7 @@ export const divCard = styled.div`
     margin: 0px 10px 20px 10px;
     width:150px;
     border-radius: 10px;
-    background-color: rgb(255, 255, 255);
+    background-color: Silver;
 
 `
 export const imgCard = styled.img`
@@ -21,7 +21,7 @@ export const cardDescription = styled.div`
 export const price = styled.strong`
     font-style: italic;
     font-size: 15px;
-    color: red;
+    color: blue;
     margin: 3px;
 `
 
@@ -41,14 +41,14 @@ export const cardButton = styled.button`
     align-items: center;
     justify-content:center;
     padding:5px 3px;
-    background-color: #baba13;
+    background-color: #00008B;
     border: none;
     color: white;
     cursor: pointer;
     border-radius: 10px;
 
     &:hover{
-        background-color: red
+        background-color: #483D8B
     }
 `
 export const name = styled.strong`

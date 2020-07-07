@@ -11,6 +11,7 @@ export const Footer = styled.div`
     background-color: #6652eb;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
     align-items: center;
+    margin: 10px
 `
 
 export const divFooter = styled.div`

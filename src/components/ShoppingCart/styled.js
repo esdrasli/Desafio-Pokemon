@@ -72,6 +72,9 @@ export const button = styled.button`
     width: 100%;
     justify-content: center;
     padding: 5px;
-    background-color: #040404;
+    background-color: #00008B;
     color: white;
+    &:hover{
+        background-color: #483D8B;
+    }
 `

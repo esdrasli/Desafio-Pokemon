@@ -12,6 +12,7 @@ export const Header = styled.div`
 `
 export const divSearch = styled.div`
     display: flex;
+    margin: 20px;
 
 `
 export const ErrorMsg = styled.span`

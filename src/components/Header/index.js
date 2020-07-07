@@ -22,7 +22,7 @@ export default function Header({pokemonSearchName}) {
     
     <S.Header>
       <S.Container>
-       <img src={logo} width="10%"></img>
+       <img src={logo} width="120px" height='70px' ></img>
        <S.divSearch>
           <S.inputName value={pokemonName} onChange={e => setPokemonName(e.target.value)} placeholder="Pesquise pelo nome"></S.inputName>
             <S.buttonSearch type="button" onClick={handlePesquisa}><FaSearch/></S.buttonSearch>  

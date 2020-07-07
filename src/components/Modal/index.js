@@ -15,8 +15,8 @@ export default function Modal({hideModal}) {
           }}>
               <div style={{  
             backgroundColor: 'white', padding:'30px 50px', display:'flex', flexDirection:'column'}}>
-                <h1 style={{paddingBottom:'20px'}}>PARABÉNS!</h1>
-                <p>Agradecemos a preferência</p>
+                <h1 style={{paddingBottom:'10px'}}>PARABÉNS!</h1>
+                <p>Obrigado pela compra</p>
         <button onClick={() => hideModal()}>fechar</button></div>
         
         </div>

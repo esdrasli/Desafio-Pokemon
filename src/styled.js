@@ -30,13 +30,13 @@ export const button = styled.button`
     width:100px;
     border-radius: 10px;
     border:none;
-    background-color: #baba13;
+    background-color: #0000CD;
     cursor:pointer;
     padding:5px;
 
     &:hover{
         outline:none;
-        background-color: yellow;
+        background-color: #00BFFF;
     }
 
     &:focus, :active{
