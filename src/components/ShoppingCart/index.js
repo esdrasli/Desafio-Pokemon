@@ -23,7 +23,7 @@ export default function ShoppingCart({removeStatePokemon, pokemonCart, totalPric
                 </div>
             </S.listItem>
           );
-        }): <S.p>Carrinho vazio :(</S.p>}
+        }): <S.p>Carrinho vazio</S.p>}
       </S.listShoppingCart>
       <S.total>
             <h2>Total:</h2>

@@ -19,7 +19,7 @@ export const ErrorMsg = styled.span`
     font-size: 0.65rem;
     color: red;
     font-weight: 600;
-
+    margin-top: 1rem;
 `
 
 export const inputName = styled.input`
@@ -40,12 +40,14 @@ export const buttonSearch = styled.button`
     outline: none ;
     padding: 0 10px 0 10px;
     background-color: #e0e4e8;
+    &:hover{
+        background-color: red
+    }
 ` 
 
-
-export const Content = styled.div`
-    width:100vw;
+export const Container = styled.div`
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: row;
+    align-items: right;
+    padding: 0 20px 0 20px
 ` 
